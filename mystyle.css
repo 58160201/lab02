@@ -1,2 +1,5 @@
-h1{ color:red; font-family:Arial }
-p{ color:black; font-family:Arial; font-weight:bold }
+h1{ color:red; 
+font-family:Arial; 
+font-weight:bold; 
+text-align:center }
+p{ color:black; font-family:Arial; font-weight:bold  }
