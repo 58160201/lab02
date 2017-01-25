@@ -8,9 +8,5 @@ p{ color:black;
  text-align:center;
  font-weight:bold;  }
  body{
-    background:url("123.png");
-    background-repeat : repeat;
-    background-repeat : repeat-x;
-    background-repeat : repeat-y;
-    background-repeat : no-repeat;
+    background:url("123.png") no-repeat fixed center;
  }
