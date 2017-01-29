@@ -1,12 +1,20 @@
-h1{ color:red; 
-font-family:Arial; 
-font-weight:bold; 
-text-align:center;
-font-size:70; }
-p{ color:white;
- font-family:Arial;
- text-align:center;
- font-weight:bold;  }
- body{
-    background:url("123.png") no-repeat fixed center;
- }
+h1 {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 70;
+}
+
+p {
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    background: url("background.jpg") no-repeat fixed center;
+}
+
+table {}
