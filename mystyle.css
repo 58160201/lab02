@@ -60,8 +60,9 @@ tab {}
 
 .datagrid table tbody td {
     color: #80141C;
-    border-left: 3px solid #F7CDCD;
+    border-left: 1px solid #B01C26;
     font-size: 18px;
+    border-bottom: 1px solid #B01C26;
     font-weight: normal;
 }
 
