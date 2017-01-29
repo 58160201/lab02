@@ -17,10 +17,10 @@ body {
     background: url("background.jpg") no-repeat fixed center;
 }
 
-tab {}
+table {}
 
 
-/*** Table  **/
+/*** Table  ***/
 
 .datagrid table {
     border-collapse: collapse;
@@ -29,7 +29,7 @@ tab {}
 }
 
 .datagrid {
-    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    font: normal 12px/100% Arial, Helvetica, sans-serif;
     background: #fff;
     overflow: hidden;
     border: 2px solid #991821;
@@ -51,7 +51,7 @@ tab {}
     color: #FFFFFF;
     font-size: 12px;
     font-weight: bold;
-    border-left: 3px solid #B01C26;
+    border-left: 1px solid #CDC5C5;
 }
 
 .datagrid table thead th:first-child {
@@ -60,15 +60,20 @@ tab {}
 
 .datagrid table tbody td {
     color: #80141C;
-    border-left: 1px solid #B01C26;
-    font-size: 18px;
-    border-bottom: 1px solid #B01C26;
+    border-left: 1px solid #CDC5C5;
+    font-size: 12px;
+    border-bottom: 1px solid #CDC5C5;
     font-weight: normal;
 }
 
-.datagrid table tbody .alt td {
-    background: #F7CDCD;
-    color: #80141C;
+.datagrid table tbody .alt {
+    background: #991821;
+    color: #FFFFFF;
+}
+
+.datagrid table tbody .alt1 {
+    background: #F0ADB3;
+    color: #FFFFFF;
 }
 
 .datagrid table tbody td:first-child {
@@ -76,11 +81,11 @@ tab {}
 }
 
 .datagrid table tbody tr:last-child td {
-    border-bottom: 10px;
+    border-bottom: 1px;
 }
 
 
-/*** -----  **/
+/*** -----  ***/
 
 tab {
     list-style-type: none;
