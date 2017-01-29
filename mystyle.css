@@ -24,13 +24,14 @@ table {}
 
 .datagrid table {
     border-collapse: collapse;
-    text-align: left;
-    width: 60%;
+    text-align: center;
+    width: 100%;
 }
 
 .datagrid {
     font: normal 12px/80% Arial, Helvetica, sans-serif;
-    background: #fff;
+    background: #FFFFFF;
+    width: 90%;
     overflow: hidden;
     border: 2px solid #991821;
     -webkit-border-radius: 20px;
@@ -60,9 +61,9 @@ table {}
 
 .datagrid table tbody td {
     color: #80141C;
-    border-left: 1px solid #CDC5C5;
+    border-left: 1px solid #F0EAE8;
     font-size: 12px;
-    border-bottom: 1px solid #CDC5C5;
+    border-bottom: 1px solid #F0EAE8;
     font-weight: normal;
 }
 
@@ -72,16 +73,16 @@ table {}
 }
 
 .datagrid table tbody .alt1 {
-    background: #F0ADB3;
-    color: #FFFFFF;
+    background: #F29E8A;
+    color: #000000;
 }
 
 .datagrid table tbody td:first-child {
-    border-left: 1px;
+    border-left: none;
 }
 
 .datagrid table tbody tr:last-child td {
-    border-bottom: 1px;
+    border-bottom: none;
 }
 
 
