@@ -1,4 +1,4 @@
-h1 {
+font-colorRD {
     color: red;
     font-family: bangna new;
     font-weight: bold;
@@ -6,11 +6,23 @@ h1 {
     font-size: 20;
 }
 
-p {
+font-colorWH {
     color: white;
     font-family: Arial;
     text-align: center;
     font-weight: bold;
+}
+
+font-gen {
+    font-family: bangna new;
+}
+
+font-sizeH {
+    font-size: 20;
+}
+
+font-sizeC {
+    font-size: 10;
 }
 
 body {
