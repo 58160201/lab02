@@ -9,7 +9,7 @@ font-colorRD {
 font-colorWH {
     color: white;
     font-family: Arial;
-    text-align: center;
+    text-align: right;
     font-weight: bold;
 }
 
@@ -204,7 +204,57 @@ div.desc {
 
 /* tabbar */
 
-tab {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #991821;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li b {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/*tab {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -214,4 +264,4 @@ tab {
 
 tb {
     float: left;
-}
+}*/
